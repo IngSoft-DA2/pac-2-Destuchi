@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 
-const KEY = 'reflection-count'; // cambiá a sessionStorage si preferís
+const KEY = 'reflection-count';
 
 @Injectable({ providedIn: 'root' })
 export class CounterService {
